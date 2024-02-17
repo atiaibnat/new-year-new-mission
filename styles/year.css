@@ -1,9 +1,10 @@
 /* ......Banner...... */
-.banner{
+.banner {
     margin-top: 40px;
-    margin-left: 90px;  
+    margin-left: 90px;
     color: black;
 }
+
 /* .banner-content{
    padding: 100px 500px 0px;
    background-image: url(../resources/Banner\ Image.png);
@@ -11,32 +12,56 @@
 
 
 /* ......section : happy-new-year...... */
-.happy-new-year{
+.happy-new-year {
     margin-left: 90px;
     align-items: center;
     justify-content: center;
 }
-.happy-new-year-content h2{
+
+.happy-new-year-content {
+    padding-left: 350px;
+}
+
+.new-year-text-part {
+    padding-left: 300px;
+    padding-bottom: 40px;
+    padding-top: 120px;
+}
+
+.happy-new-year-content h2 {
     color: red;
+
 }
+
+.happy-new-year-content img {
+    height: 500px;
+    width: 800px;
+}
+
 /* .....section: welcome-to-midnight-party..... */
-.welcome-to-midnight-party{
-   margin: 40px 90px;
-   background-image: url(../resources/Vectorrr.png);
-   background-repeat: no-repeat;
-   
+.welcome-to-midnight-party {
+    margin: 40px 90px;
+    background-image: url(../resources/Vectorrr.png);
+    background-repeat: no-repeat;
+
 }
-.midnight-party{
+
+.midnight-party {
     display: flex;
     padding: 65px 120px;
-    
+    border-radius: 16px;
+    background: linear-gradient(90.00deg, rgb(7, 2, 17), rgba(7, 2, 17, 0) 100%);
+
+
 }
-.midnight-party-title{
+
+.midnight-party-title {
     font-weight: 800;
     font-size: 85;
     color: white;
 }
-.midnight-party-description{
+
+.midnight-party-description {
     color: white;
     font-size: 18px;
     font-weight: 400;
@@ -59,28 +84,32 @@
 
 
 /* .....section : join now.... */
-.join-now{
+.join-now {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background-color: pink;
     margin-left: 90px;
     margin-right: 100px;
+    border-radius: 16px;
+    height: 420px;
+
+    background: linear-gradient(180.00deg, rgba(255, 0, 0, 0.1), rgba(255, 0, 0, 0) 100%);
 }
-.banner-btn{
+
+.banner-btn {
     background-color: red;
     padding: 12px 15px;
     border-radius: 5px;
     outline: none;
     border: none;
-    color:#fff;
+    color: #fff;
     font-size: 15px;
     font-weight: 600;
-    margin:30px 0px;
+    margin: 30px 0px;
 }
 
-.join-now-info{
+.join-now-info {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -88,45 +117,71 @@
     text-align: center;
     padding-bottom: 20px;
 }
-.join-now-info span{
+
+.join-now-info span {
     color: red;
 }
 
 /* ......section: coming-soon.... */
-.coming-soon{
+.coming-soon {
     margin-top: 40px;
 }
-.coming-soon-container{
+
+.coming-soon-container {
     display: flex;
     justify-content: space-around;
     padding: 0px 50px;
 }
-.coming-soon-container p{
+
+.coming-soon-container p {
     color: #757575;
 }
-.coming-soon-item{
-    padding: 40px ;
+
+.coming-soon-item {
+    padding: 40px;
 }
-.red{
+
+.red-border img {
+    height: 365px;
+    width: 365px;
+    border-radius: 50%;
+    padding: 20px;
+    border: 15px solid red;
+}
+
+.red {
     color: red;
 }
-#year{
-    margin-top: 100px;
+
+#year {
+    margin-top: 150px;
 }
+
 
 /* .....section: Awsome-Portfolio...... */
-.awesome-portfolio{
+.awesome-portfolio {
     margin-left: 90px;
 }
-.gift-contents{
-    display: grid;
-    align-items: center;
-    justify-content: space-between;
+
+.img-container:hover {
+    transform: rotate(45deg) scale(0.5);
+    transition: width 10s;
 }
 
+.gift-list-one {
+    display: flex;
+    gap: 24px;
+    padding-bottom: 24px;
+
+}
+
+.gift-list-two {
+    display: flex;
+    gap: 24px;
+}
 
 /* .........section:subscribe-newsletter........ */
-.newsletter-content{
+.newsletter-content {
     margin-left: 90px;
     margin-right: 90px;
     margin-top: 80px;
@@ -134,102 +189,117 @@
     background-color: rgba(255, 0, 0, 0.05);
     border-radius: 16px;
 }
-.newsletter-item{
+
+.newsletter-item {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    display: flex;  
+    display: flex;
     padding-top: 40px;
 }
-#newsletter-head{
-        color: #181818;
-        font-weight: 500;
-        font-size: 60px;      
+
+#newsletter-head {
+    color: #181818;
+    font-weight: 500;
+    font-size: 60px;
 }
-.newsletter-description{
+
+.newsletter-description {
     color: gray;
     padding-bottom: 10px;
-    
+
 }
-.subscribe-form{
+
+.subscribe-form {
     display: flex;
 }
-.form-place,input[type="email"]{
+
+.form-place,
+input[type="email"] {
     width: 100%;
     border-start-start-radius: 50px;
     border-bottom-left-radius: 50px;
-    padding: 20px 400px 20px 15px; 
-    border: 0; 
+    padding: 20px 400px 20px 15px;
+    border: 0;
 }
-.btn-primary{
+
+.btn-primary {
     border: 0;
     font-size: 20px;
     font-style: normal;
     font-weight: 700;
-    color:white;
+    color: white;
     padding: 18px 35px;
     border-end-end-radius: 50px;
     border-top-right-radius: 50px;
     background-color: red;
- }
- /* .......footer....... */
- .footer{
+}
+
+/* .......footer....... */
+.footer {
     background-color: black;
     margin-top: 80px;
- }
- .footer-content{
+}
+
+.footer-content {
     color: #fff;
     padding-left: 90px;
     display: flex;
     justify-content: space-between;
     padding-right: 200px;
 
- }
- .footer-img{
+}
+
+.footer-img {
     display: flex;
     padding-top: 30px;
     padding-bottom: 30px;
     align-items: center;
     justify-content: center;
- }
- .call{
+}
+
+.call {
     display: flex;
- }
- .website{
+}
+
+.website {
     display: flex;
- }
- .footer-item{  
+}
+
+.footer-item {
     padding-top: 80px;
- }
- .copy{
+}
+
+.copy {
     color: #fff;
- }
- .reserved{
+}
+
+.reserved {
     display: flex;
     justify-content: space-between;
     padding-top: 30px;
     padding-bottom: 40px;
- }
- .rights{
+}
+
+.rights {
     padding-left: 90px;
- }
- .Unsubscribe{
+}
+
+.Unsubscribe {
     padding-right: 130px;
- }
- 
- .footer-img-list{
+}
+
+.footer-img-list {
     padding-left: 90px;
     padding-right: 130px;
     padding-top: 30px;
-           
- }
- #number{
+}
+#number {
     padding-left: 10px;
- }
- #link{
+}
+#link {
     padding-left: 10px;
- }
- #instagram{
+}
+#instagram {
     padding-left: 13px;
- }
- 
+}
